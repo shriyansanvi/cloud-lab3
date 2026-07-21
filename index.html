@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Computer Science & Engineering | Sahyadri College of Engineering & Management</title>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+
+    <style>
+        :root {
+            --primary-dark: #800020;
+            --secondary-gold: #d4af37;
+            --text-main: #2c3e50;
+            --bg-light: #fdfdfd;
+            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            color: var(--text-main);
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, #4a0012 100%);
+            color: white;
+            text-align: center;
+            padding: 3rem 1.5rem;
+            border-bottom: 5px solid var(--secondary-gold);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        }
+
+        header h2 {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.4rem;
+            color: #f3e5ab;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 3.5rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .section-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            padding: 3rem;
+            margin-bottom: 3rem;
+            border-left: 5px solid var(--primary-dark);
+        }
+
+        .section-card.vision-card {
+            border-left-color: var(--secondary-gold);
+        }
+
+        h3 {
+            color: var(--primary-dark);
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+
+        h3 i {
+            margin-right: 0.75rem;
+        }
+
+        .vision-text {
+            font-size: 1.2rem;
+            color: #4a5568;
+            line-height: 1.8;
+            position: relative;
+            padding-left: 1.5rem;
+            border-left: 3px italic var(--secondary-gold);
+        }
+
+        .mission-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mission-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.75rem;
+            font-size: 1.15rem;
+            color: #4a5568;
+        }
+
+        .mission-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .mission-item i {
+            color: var(--primary-dark);
+            font-size: 1.25rem;
+            margin-right: 1.25rem;
+            margin-top: 0.25rem;
+            flex-shrink: 0;
+            background: rgba(128, 0, 32, 0.1);
+            padding: 0.5rem;
+            border-radius: 50%;
+        }
+
+        .mission-item span {
+            padding-top: 0.25rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1.5rem;
+            background-color: #111111;
+            color: #a0aec0;
+            font-size: 0.95rem;
+            border-top: 3px solid var(--primary-dark);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .credit {
+            margin-top: 1.25rem !important;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            color: #a0aec0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .credit-badge {
+            background-color: #1a1a1a;
+            color: var(--secondary-gold);
+            padding: 4px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            font-weight: 600;
+            display: inline-block;
+            transition: all 0.3s ease;
+            cursor: default;
+        }
+
+        .credit-badge:hover {
+            background-color: var(--secondary-gold);
+            color: #111111;
+            box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sahyadri College of Engineering & Management</h1>
+        <h2>Department of Computer Science & Engineering</h2>
+    </header>
+
+    <div class="container">
+
+        <div class="section-card vision-card">
+            <h3><i class="fas fa-eye"></i> Our Vision</h3>
+            <p class="vision-text">
+                To be a premier institution in Technology and Management by fostering excellence in education, innovation, incubation and values to inspire and empower the young minds.
+            </p>
+        </div>
+
+        <div class="section-card">
+            <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+            <ul class="mission-list">
+                <li class="mission-item">
+                    <i class="fas fa-book"></i>
+                    <span>Creating an academic ambience to impart holistic education focusing on individual growth, integrity, ethical values and social responsibility.</span>
+                </li>
+
+                <li class="mission-item">
+                    <i class="fas fa-book"></i>
+                    <span>Develop skill based learning through industry-institution interaction to enhance competency and promote entrepreneurship.</span>
+                </li>
+
+                <li class="mission-item">
+                    <i class="fas fa-book"></i>
+                    <span>Fostering innovation and creativity through competitive environment with state-of-the-art infrastructure.</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sahyadri College of Engineering & Management. All Rights Reserved.</p>
+        <p class="credit">
+            Created by <span class="credit-badge">Sanvi</span>
+        </p>
+    </footer>
+
+</body>
+</html>
