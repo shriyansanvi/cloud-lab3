@@ -63,14 +63,9 @@ sudo mv index.html /var/www/html/
 Open your browser and visit:
 
 ```
-http://<EC2-Public-IP>
+http://ec2-13-63-49-164.eu-north-1.compute.amazonaws.com
 ```
 
-or
-
-```
-http://<EC2-Public-DNS>
-```
 
 ## Commands Used
 
